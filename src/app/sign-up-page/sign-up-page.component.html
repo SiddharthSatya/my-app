@@ -1,0 +1,60 @@
+<div class="signUpPage">
+    <div class="nav_bar">
+        <div>
+            <img [src]="url_logo" alt="Logo.png"  class="logo">
+        </div>
+        <div class="prod_name">
+            MY ABBOTT CARES
+        </div>
+        <div class="comp_name">
+            ABBOTT
+        </div>
+        <div class="hamb">
+            <img [src]="url_hamb" alt="hamburger">
+        </div>
+    </div>
+    <!-- <div class="img-container">
+        <img [src]="url_img" alt="" class="carousel_img">
+    </div> -->
+    <app-carousel></app-carousel>
+    <div class="loginDetails">
+        <div>
+            <p class="login" id="logInHead">Sign Up</p>
+            <p class="login" id="logInDet">
+                Please enter your details below
+            </p>
+            <p class="login" id="logInDet1">
+                to create account
+            </p>
+        </div>
+    </div>
+    <div class="inputFields">
+        <div class="mobile">
+            <label for="countryCode"></label>
+            <input type="text" name="" id="countryCode" value="+60">
+            <label for="mobileNumber"></label>
+            <input type="text" name="" id="mobileNumber" value="Enter mobile number(1xxxxxx)">
+        </div>
+        
+    </div>
+    <div class="btn">
+        <a href="" routerLink="/homePage">
+            <button class="loginBtn">
+                <p class="loginBtnText">
+                    Send Verification Code
+                </p>
+            </button>
+        </a>
+    </div>
+    <hr style="width: 273px;">
+    <div class="signUpTag">
+        <p class="signUpHolder">
+            ALREADY A MEMBER? <a href="" style="color: #0B1932;">LOGIN NOW</a>
+        </p>
+    </div>
+    <div class="footer">
+        <p class="footerText">
+            MAL.2023.35924.ALL.1
+        </p>
+    </div>
+</div>

@@ -1,0 +1,74 @@
+<div class="loginPage">
+    <div class="nav_bar">
+        <div>
+            <img [src]="url_logo" alt="Logo.png"  class="logo">
+        </div>
+        <div class="prod_name">
+            MY ABBOTT CARES
+        </div>
+        <div class="comp_name">
+            ABBOTT
+        </div>
+        <div class="hamb">
+            <img [src]="url_hamb" alt="hamburger">
+        </div>
+    </div>
+    <!-- <div class="img-container">
+        <img [src]="url_img" alt="" class="carousel_img">
+    </div> -->
+    <app-carousel></app-carousel>
+    <div class="loginDetails">
+        <div>
+            <p class="login" id="logInHead">Log In</p>
+            <p class="login" id="logInDet">
+                Welcome Back!
+            </p>
+            <p class="login" id="logInDet1">
+                Please Enter your Mobile number and password
+            </p>
+        </div>
+    </div>
+    <div class="inputFields">
+        <div class="mobile">
+            <label for="countryCode"></label>
+            <input type="text" name="" id="countryCode" value="+60">
+            <label for="mobileNumber"></label>
+            <input type="text" name="" id="mobileNumber" value="Enter mobile number(1xxxxxx)">
+        </div>
+        <div class="password">
+            <label for="pass"></label>
+            <input type="password" id="pass" value="Enter your password">
+        </div>
+        <div class="keepMeLoggedIn">
+            <input type="checkbox" id="chkBox">
+            <label for="chkBox">Keep Me Logged In</label>
+        </div>
+    </div>
+    <div class="btn">
+        <a routerLink="/homePage" id="logInTag">
+            <button class="loginBtn">
+                <p class="loginBtnText">
+                    Log In
+                </p>
+            </button>
+        </a>
+    </div>
+    <div class="forgetPass">
+        <a href="" style="color: #002A3A;">
+            <p class="paraPass">
+                Forgot Your Password
+            </p>
+        </a>
+    </div>
+    <hr style="width: 273px;">
+    <div class="signUpTag">
+        <p class="signUpHolder">
+            NEW USER? <a href="" routerLink="/signUp" style="color: #0B1932;">SIGN UP NOW</a>
+        </p>
+    </div>
+    <div class="footer">
+        <p class="footerText">
+            MAL.2023.35924.ALL.1
+        </p>
+    </div>
+</div>

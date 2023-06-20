@@ -1,0 +1,290 @@
+<div class="homePage">
+    <div class="navBar">
+        <div>
+            <img [src]="url_logo" alt="Logo.png"  class="logo">
+        </div>
+        <div class="prod_name">
+            MY ABBOTT CARES
+        </div>
+        <div class="comp_name">
+            ABBOTT
+        </div>
+        <div class="hamb">
+            <a href="" >
+                <button id="hambBut">
+                    <img [src]="url_hamb" alt="hamburger">
+                </button>
+            </a>
+        </div>
+    </div>
+    <div class="img-container">
+        <img [src]="url_img" alt="" class="carousel_img">
+    </div>
+    <div class="tierProg">
+        <div class="details">
+            <p id="detailsHead">
+                Welcome, Username!
+            </p>
+            <p id="detailsHead1">
+                101 Care Points
+            </p>
+            <p id="tierInfo">
+                <span class="tierText">BRONZE</span> 
+                <span class="star"><img [src]="url_star" alt="" style="width: 20px;
+                height: 20px;"></span>
+                <span class="arrow"><img [src]="url_arrow" alt=""></span>
+            </p>
+            <!-- <meter value="0.6" id="progBar"></meter> -->
+            <progress value="60" max="100" id="#progBar"></progress>
+            <p class="tierPromInfo">
+                20 more CarePoints to reach Silver
+            </p>
+        </div>
+    </div>
+    <div class="scanRedemptn">
+        <div class="scanBorder">
+            <div class="scanDiv">
+                <div class="scanDivImgHolder">
+                    <img [src]="url_intersect" alt="" id="scanDivImg">
+                </div>
+            </div>
+        </div>
+        <div class="redemptnBorder">
+            <div class="redemptnDiv">
+                <div class="redemptnDivImgHolder">
+                    <img [src]="url_intersect" alt="" id="redemptnDivImg">
+                </div>
+            </div>
+        </div>    
+    </div>
+    <div class="detailsTags">
+        <div class="carePoints">
+            <div class="carePointsInsideBorder">
+                <div class="carePointsInside">
+                    <img [src]="url_newStar" alt="" id="newStar">
+                </div>
+                <div class="carePointsPara">
+                    <p id="carePtsPara">
+                        CarePoints
+                    </p>
+                    <p id="carePtsPara" style="text-align: center;margin-right: 9px;">
+                        History
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="redemptionStatus">
+            <div class="redemptionStatusInsideBorder">
+                <div class="redemptionStatusInside">
+                    <img [src]="url_newStar" alt="" id="newStar">
+                </div>
+                <div class="redemptionStatsPara">
+                    <p id="redemptnStsPara">
+                        Redemption
+                    </p>
+                    <p id="redemptnStsPara" style="text-align: center;">
+                        Status
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="unlockBadges">
+            <div class="unlockBadgesInsideBorder">
+                <div class="unlockBadgesInside">
+                    <img [src]="url_shield" alt="" id="shield">
+                </div>
+                <div class="unlockBadgesPara">
+                    <p id="unlockBdgPara">
+                        Unlock
+                        Badges
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="breakDivs">
+    <div class="botHead">
+        <p class="botHeadPara">
+            What's New
+        </p>        
+        <div class="botImg">
+            <img [src]="url_botImg" alt="" id="bottomImage">
+        </div>
+    </div>
+    <hr class="breakDivs">
+    <div class="redemCat">
+        <div>
+            <p class="redemText">
+              Redemption Catalogue  
+            </p>
+        </div>
+        <div class="holder">
+            <div class="blocksBorder">
+                <div class="first" id="blocks">
+                    <p class="nameHolder">
+                        Abbott Product
+                    </p>
+                    <img [src]="url_ffirst" alt="" class="firstImage" id="ffirst">
+                    <img [src]="url_fsecond" alt="" class="firstImage" id="fsecond">
+                    <img [src]="url_fthree" alt="" class="firstImage" id="fthree">
+                    <img [src]="url_ffour" alt="" class="firstImage" id="ffour">
+                </div>
+            </div>
+            <div class="blocksBorder">
+                <div class="second" id="blocks">
+                    <p class="nameHolder">
+                        Voucher/E- Voucher
+                    </p>
+                    <!-- <img [src]="url_gift" alt="" id="giftCard">
+                    <img [src]="url_gift" alt="" id="giftCard1"> -->
+                </div>
+            </div>
+            <div class="blocksBorder">
+                <div class="third" id="blocks">
+                    <p class="nameHolder">
+                        Child Education
+                    </p>
+                    <img [src]="url_cerealBox" alt="" id="cerealBox">
+                </div>
+            </div>
+        </div>
+        <div class="holder">
+            <div class="blocksBorder">
+                <div class="fourth" id="blocks">
+                    <p class="nameHolder">
+                        Health & Fitness
+                    </p>
+                    <img [src]="url_healthFit" alt="" id="healthFit">
+                </div>
+            </div>
+            <div class="blocksBorder">
+                <div class="fifth" id="blocks">
+                    <p class="nameHolder">
+                        Household
+                    </p>
+                    <img [src]="url_bottle" alt="" id="bottle">
+                </div>
+            </div>
+            <div class="blocksBorder">
+                <div class="sixth" id="blocks">
+                    <p style="margin: 0px;" class="imgHolder">
+                        <img [src]="url_holdImg" alt="" style="height: 95px;width: 95px;">
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr class="breakDivs">
+    <div class="customerReview">
+        <div class="customerReviewPara">
+            <p class="reviewPara">
+                Customer Reviews
+            </p>
+        </div>
+        <div class="customerReviewImage">
+            <div class="imageHolder">
+                <p class="imgHolderPara">
+                    <img [src]="url_custReviewImg" alt="" class="imgCustReview">
+                </p>
+                <p class="custReviewPara">
+                    Sy dah test muscle age calculator , mujur otot sy lagi muda dari umur sebenar sy. In case korang wonder how u can regain ur muscle strength, u can try Ensure Gold.
+                </p>
+                <div class="docDetails">
+                    <div style="padding-right: 8px;">
+                        <p class="drSay">
+                            Dr. Say
+                        </p>
+                        <p class="brandAmbassador">
+                            Brand Ambassador
+                        </p>
+                    </div>
+                    <div class="docImg">
+                        <img [src]="url_docImg" alt="" class="docPic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottomContainer">
+        <div class="bottomCont">
+            <div class="bottomContainerFirst">
+                <p class="bottomContainerPara">
+                    PROGRAM UPDATES! Previously known as Abbott Share & Care World. If you have carried forward points from Abbott Share & Care World, please click to CarePoints History for more
+                </p>
+            </div>
+            <div class="qrHolder">
+                <div class="outer">
+                    <div class="inner">
+                        <img [src]="url_qr" alt="" style="width: 46px;height: 46px;/* margin: 0 auto; */position: relative;top: 15px;left: 15px;">
+                    </div>
+                </div>
+            </div>
+            <div class="bottomContainerSecond">
+                <div class="botCotSecFirst">
+                    <div class="botCotSecFirFirst">
+                        <div style="text-align: center;">
+                            <img [src]="url_homeIcon" alt="" id="homeIcon">
+                            <!-- <img [src]="url_ellipse" alt="" id="firstBack"> -->
+                        </div>
+                        <div>
+                            <p style="width: 46px;height: 23px;font-size: 9px;font-weight: 700;text-align: center;">
+                                My Abbott Cares
+                            </p>
+                        </div>
+                    </div>
+                    <div class="botCotSecFirFirst">
+                        <div>
+                            <img [src]="url_heart" alt="" id="heartIcon">
+                            <!-- <img [src]="url_ellipse" alt="" id="secondBack"> -->
+                        </div>
+                        <div>
+                            <p style="width: 46px;height: 23px;font-size: 9px;font-weight: 700;text-align: center;">
+                                CarePoints History
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="botCotSecSecond">
+                    <div class="botCotSecPara">
+                        <p id="para">
+                            Scan for Care points
+                        </p>
+                    </div>
+                </div>
+
+                <div class="botCotSecThird">
+                    <div class="botCotSecFirst">
+                        <div class="botCotSecFirFirst">
+                            <div style="text-align: center;">
+                                <img [src]="url_homeIcon" alt="" id="homeIcon">
+                                <!-- <img [src]="url_ellipse" alt="" id="firstBack"> -->
+                            </div>
+                            <div>
+                                <p style="width: 46px;height: 23px;font-size: 9px;font-weight: 700;text-align: center;">
+                                    My Abbott Cares
+                                </p>
+                            </div>
+                        </div>
+                        <div class="botCotSecFirFirst">
+                            <div>
+                                <img [src]="url_heart" alt="" id="heartIcon">
+                                <!-- <img [src]="url_ellipse" alt="" id="secondBack"> -->
+                            </div>
+                            <div>
+                                <p style="width: 46px;height: 23px;font-size: 9px;font-weight: 700;text-align: center;">
+                                    CarePoints History
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <p class="footerPara">
+                MAL.2023.35924.ALL.1
+            </p>
+        </div>
+    </div>
+</div>

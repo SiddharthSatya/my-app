@@ -1,0 +1,767 @@
+.homePage{
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    /* background-color: lightblue; */
+}
+
+.navBar{
+    display: flex;
+    font-family: inherit;
+}
+
+.homePage .navBar{
+    flex-direction: row;
+    background-color: #002A3A;
+    color: #FFFFFF;
+    width: 100%;
+    height: 56px;
+}
+
+.homePage .navBar .logo{
+    justify-content: left;
+    height: 37px;
+    width: 37px;
+    padding-top: 9px;
+    padding-left: 10px;
+    
+}
+
+.homePage .navBar .prod_name{
+    height: 23px;
+    width: 224px;
+    left: 56px;
+    top: 17px;
+    border-radius: nullpx;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+
+}
+
+.homePage .navBar .comp_name{
+    font: Roboto;
+    font-size: 15px;
+    width: 77px;
+    height: 24px;
+    padding-top: 18px;
+}
+
+.homePage .navBar .hamb{
+    justify-content: right;
+    border-radius: 0px;
+    padding-top: 18px;
+}
+#hambBut{
+    background-color: #002A3A;
+    border: none ;
+}
+.homePage .img-container .carousel_img{
+    width: 390px;
+    height: 261px;
+    border-radius: 0px 0px 25px 25px;
+}
+
+.tierProg{
+    width: 345px;
+    height: 200px;
+    margin: 0 auto;
+    margin-left: 28px;
+    margin-top: -63px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.31);
+}
+
+#detailsHead{
+    color: #101A40;
+    width: 230px;
+    height: 28px;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 900;
+    margin: 10px 0px 0px 0px;
+}
+
+#detailsHead1{
+    color: #101A40;
+    width: 223px;
+    height: 39px;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 900;
+    margin: 8px 0 0 0;
+}
+
+.tierText{
+    width: 82px;
+    height: 19px;
+    margin: 0;
+}
+
+#tierInfo{
+    color: #895E1A;
+    margin: 0;
+    padding: 28px 0px 10px;
+}
+
+.tierText{
+    width: 82px;
+    height: 19px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.star{
+    padding-left: 10px;
+    padding-right: 4px;
+}
+
+.arrow{
+    width: 9px;
+    height: 15px;
+    color: #05182D;
+}
+
+.details{
+    padding-left: 10px;
+    background-color: white;
+}
+#progBar {
+    width: 300px;
+    height : 25px;
+    border: 2px solid gray;
+    margin: 0;
+}
+
+.tierPromInfo{
+    margin: 0;
+    padding-top: 8px;
+}
+
+.scanRedemptn{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding-top: 51px;
+    padding-left: 10px;
+    justify-content: space-around;
+}
+.scanBorder{
+    width: 148px;
+    height: 80px;
+    padding: 3px;
+    background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+    border-radius: 7px;
+    position: relative;
+}
+.scanDiv{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(91.04deg, #002A3A 22.68%, rgba(0, 42, 58, 0) 82.15%);
+    border-radius: 7px;
+}
+
+.scanDivImgHolder{
+    width: 117px;
+    height: 80px;
+    padding-left: 31px;
+}
+
+#scanDivImg{
+    width: 117px;
+    height: 80px;
+}
+
+.redemptnBorder{
+    width: 148px;
+    height: 80px;
+    padding: 3px;
+    background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+    border-radius: 7px;
+}
+
+.redemptnDiv{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(91.04deg, #002A3A 22.68%, rgba(0, 42, 58, 0) 82.15%);
+    border-radius: 7px;
+}
+
+.redemptnDivImgHolder{
+    width: 117px;
+    height: 80px;
+    padding-left: 31px;
+}
+
+#redemptnDivImg{
+    width: 117px;
+    height: 80px;
+}
+
+.detailsTags{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 27px;
+    justify-content: space-around;
+    width: 318px;
+    height: 124px;
+    margin-bottom: 17px;
+}
+
+.carePoints{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    height: 100%;
+    width: 61px;
+}
+
+.carePointsInsideBorder{
+    height: 61px;
+    width: 61px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+
+}
+
+.carePointsPara{
+    width: 76px;
+    height: 18px;
+    padding-top: 18px;
+}
+
+#carePtsPara{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0;
+    /* text-align: center; */
+}
+#newStar{
+    width: 26px;
+    height: 22px;
+    position: relative;
+    top: 19px;
+    left: 17px;
+}
+
+#shield{
+    width: 21px;
+    height: 25px;
+    position: relative;
+    top: 18px;
+    left: 20px;
+}
+
+.redemptionStatus{
+    width: 61px;
+    /* height: 61px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.redemptionStatusInside{
+    background-color: #002A3A;
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.redemptionStatusInsideBorder{
+    height: 61px;
+    width: 61px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+}
+
+.redemptionStatsPara{
+    width: 76px;
+    height: 18px;
+    padding-top: 18px;
+}
+
+#redemptnStsPara{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0;
+}
+.unlockBadges{
+    width: 61px;
+    height: 61px;
+}
+.unlockBadgesInside{
+    background-color: #002A3A;
+    /* border: 3px solid; */
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* border-color: rgba(215, 177, 81, 1); */
+}
+
+.unlockBadgesInsideBorder{
+    height: 61px;
+    width: 61px;
+    border-radius: 50%;
+    padding: 3px;
+    background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+}
+
+.unlockBadgesPara{
+    width: 76px;
+    height: 18px;
+    padding-top: 18px;
+}
+
+#unlockBdgPara{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    margin: 0;
+    text-align: center;
+    padding-right: 15px;
+}
+
+.carePointsInside{
+    background-color: #002A3A;
+    /* border: 3px solid; */
+    width: 61px;
+    height: 61px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+}
+
+.breakDivs{
+    width: 100%;
+    height: 7px;
+    background: rgba(236, 236, 236, 1);
+    border: none;
+    margin: 0;
+}
+
+.botHead{
+    padding-left: 41px;
+    padding-bottom: 60px;
+}
+
+.botHeadPara{
+    margin: 0;
+    padding-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.botImg{
+    width: 312px;
+    height: 140px;
+    margin: 0;
+    padding-top: 20px;
+}
+
+#bottomImage{
+    border-radius: 4px;
+    box-shadow: 0px 4px 14px 0px #00000029;
+}
+
+.redemCat{
+    padding-bottom: 36px;
+}
+
+.redemText{
+    width: 247px;
+    height: 18px;
+    margin: 0;
+    padding: 35px 0px 0px 44px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    width: 330px;
+    height: 100px;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 46px 0px 11px 0px;
+    padding-left: 15px;
+}
+
+#blocks{
+    width: 95px;
+    height: 95px;
+    /* background-color: #002A3A; */
+    border-radius: 13px;
+    /* border: 3px solid; */
+    background: linear-gradient(0deg, #002A3A, #002A3A),
+    linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+    border: 3px solid;
+}
+
+.blocksBorder{
+    border-radius: 13px;
+    padding: 3px;
+    background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+}
+
+.nameHolder{
+    width: 75px;
+    height: 26px;
+    padding: 5px 0px 0px 12px;
+    color: white;
+    font-size: 11px;
+    font-weight: 900;
+    line-height: 11px;
+}
+
+#ffirst{
+    width: 18px;
+    height: 33px;
+    position: relative;
+    z-index: 1;
+    left: 18px;
+}
+#fsecond{
+    width: 27px;
+    height: 39px;
+    position: relative;
+    left: 13px;
+}
+
+#fthree{
+    width: 56px;
+    height: 50px;
+    position: relative;
+    bottom: 47px;
+    left: 46px;
+}
+
+#ffour{
+    width: 17px;
+    height: 42px;
+    position: relative;
+    bottom: 46px;
+    left: 23px;
+}
+
+#giftCard{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    left: 25px;
+    bottom: 10px;
+}
+
+#giftCard1{
+    position: relative;
+    width: 60px;
+    height: 40px;
+    left: 25px;
+    bottom: 10px;
+}
+
+#cerealBox{
+    width: 49px;
+    height: 55px;
+    position: relative;
+    left: 42px;
+    bottom: 10px;
+}
+
+#healthFit{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    bottom: 40px;
+    left: 19px;
+}
+
+#bottle{
+    position: relative;
+    height: 100px;
+    width: 65px;
+    bottom: 41px;
+    left: 35px;
+}
+
+.customerReview{
+    display: flex;
+    flex-direction: column;
+}
+.customerReviewPara{
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 21px;
+}
+.reviewPara{
+    width: 247px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0px;
+}
+
+.customerReviewImage{
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 33px;
+    padding-bottom: 14px;
+}
+
+.imageHolder{
+    height: 168px;
+    width: 241px;
+    left: 50px;
+    top: 1430px;
+    border-radius: 13px;
+    background-color: rgba(0, 42, 58, 1);
+    color: white;
+}
+
+.imgHolderPara{
+    margin: 0px;
+}
+
+.imgCustReview{
+    padding: 22px 0px 0px 32px;
+}
+
+.custReviewPara{
+    width: 177px;
+    height: 44px;
+    padding: 10px 0px 0px 31px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    margin: 0px;
+}
+
+.docDetails{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-left: 60px;
+}
+
+.drSay{
+    width: 47px;
+    height: 15px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: right;
+    padding: 13px 0px 0px 68px;
+    margin: 0px;
+}
+
+.brandAmbassador{
+    width: 115px;
+    height: 17px;
+    /* padding-left: 60px; */
+    margin: 0px;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.docImg{
+    width: 40px;
+    height: 44px;
+    padding-top: 10px;
+}
+
+.docPic{
+    border-radius: 50%;
+}
+
+.bottomContainer{
+    width: 390px;
+    margin: 0px;
+    padding: 3px;
+    background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
+    border-radius: 25px 25px 0px 0px;
+
+}
+.bottomCont{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background: white;
+    border-radius: 25px 25px 0px 0px;
+}
+
+.bottomContainerFirst{
+    margin: 0px;
+    padding-bottom: 24px;    
+}
+
+.bottomContainerPara{
+    width: 363px;
+    height: 49px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 17px;
+    align-items: center;
+    padding: 13px 0px 10px 13px;
+    margin: 0px;
+    text-align: center;
+}
+
+.bottomContainerSecond{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    box-shadow: 1px 1px 7px 1px #888B8D;
+    z-index: 0;
+}
+
+
+.botCotSecFirst{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 145px;
+    padding-top: 16px;   
+}
+
+.botCotSecFirFirst{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#homeIcon{
+    width: 24px;height: 26px;
+}
+
+#firstBack{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    right: 24%;
+    bottom: 12%;
+
+}
+
+#heartIcon{
+    width: 25px;height: 24px;
+}
+#secondBack{
+    width: 24px;height: 24px;position: relative;right: 26%;bottom: 12%;z-index: -1;
+}
+
+.botCotSecSecond{
+    display: flex;
+    flex-direction: column;
+    padding-top: 16px;
+}
+
+.cutOut{
+    width: 88px;
+    height: 77px;
+    position: absolute;
+    overflow: hidden;
+    right: 140px;
+}
+
+.cutOut::before{
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    box-shadow: 0px 20px 0px 30px #888B8D;
+}
+.botCotSecThird{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 145px;
+}
+
+.botCotSecImg{
+    height: 77px;
+    width: 77px;
+    box-shadow: 1px 1px 7px 1px #888B8D;
+    border-radius: 50%;
+    position: relative;
+    bottom: 60%;
+}
+
+#para{
+    width: 52px;height: 18px;font-size: 9px;font-weight: 700;line-height: 10px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+#qrImg{
+    height: 46px;
+    width: 46px;
+    position: relative;
+    top: 20%;
+    left: 20%;
+}
+.qrHolder{
+    position: absolute;
+    top: 1790px;
+    left: 158px;
+}
+.outer{
+    width: 99px;
+    height: 99px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;margin: 0 auto;
+    box-shadow: inset 0px -7px 9px -4px grey;
+}
+
+.inner{
+    width: 77px;
+    height: 77px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    top: 11px;
+    box-shadow: 1px 1px 7px 1px #888B8D;
+
+}
+
+.footer{
+    width: 390px;
+    height: 13px;
+    background-color: #002A3A;
+}
+
+.footerPara{
+    width: 153px;
+    height: 7px;
+    font-size: 6px;
+    font-weight: 300;
+    color: white;
+    padding: 3px 0px 3px 4px;
+    margin: 0px;
+}

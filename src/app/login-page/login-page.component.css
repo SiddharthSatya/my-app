@@ -1,0 +1,186 @@
+.loginPage{
+    width: 390px;
+    margin: 0 auto;
+}
+
+.loginPage .nav_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #002A3A;
+    color: #FFFFFF;
+    width: 100%;
+    height: 56px;
+}
+
+.loginPage .nav_bar .logo{
+    justify-content: left;
+    height: 37px;
+    width: 37px;
+    padding-top: 9px;
+    padding-left: 10px;
+    
+}
+
+.loginPage .nav_bar .prod_name{
+    height: 23px;
+    width: 224px;
+    left: 56px;
+    top: 17px;
+    border-radius: nullpx;
+    font: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+
+}
+
+.loginPage .nav_bar .comp_name{
+    font: Roboto;
+    font-size: 15px;
+    width: 77px;
+    height: 24px;
+    padding-top: 18px;
+}
+
+.loginPage .nav_bar .hamb{
+    justify-content: right;
+    border-radius: 0px;
+    padding-top: 18px;
+}
+
+.loginPage .img-container .carousel_img{
+    width: 390px;
+    height: 300px;
+}
+
+.loginPage .loginDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPage .loginDetails .login{
+    font: 'Roboto';
+    text-align: center;
+}
+
+#logInHead{
+    margin: 25px auto 10px;
+    height: 29px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+#logInDet{
+    margin: 0 auto;
+    width: 234px;
+    height: 20px;
+    font-size: 16px;
+}
+
+#logInDet1{
+    margin: 0 auto;
+    width: 215px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.loginPage .inputFields{
+    text-align: center;
+}
+
+.loginPage .inputFields .mobile #countryCode{
+    width: 41px;
+    height: 40px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.loginPage .inputFields .mobile #mobileNumber{
+    width: 226px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.loginPage .inputFields .password #pass{
+    margin-top: 20px;
+    width: 285px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.loginPage .inputFields .keepMeLoggedIn{
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.loginPage .inputFields .keepMeLoggedIn #chkBox{
+    box-sizing: border-box;
+    border: 2px solid #1D3A6C;
+    border-radius: 2px;
+    height: 17px;
+    width: 17px;
+    margin: 10px 5px 0px 0px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.loginPage .btn .loginBtn{
+    height: 42px;
+    width: 295px;
+    margin: 10px 0px;
+    background-color: #002A3A;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.loginPage .btn .loginBtn .loginBtnText{
+    width: 105px;
+    height: 22px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 22px;
+}
+
+#logInTag:visited{
+    color: white;
+}
+.loginPage .forgetPass .paraPass{
+    width: 128px;
+    height: 32px;
+    padding-left: 127px;
+    margin-top: 5px;
+}
+
+.loginPage .signUpTag .signUpHolder{
+    width: 234px;
+    height: 19px;
+    margin: 15px auto 25px;
+}
+
+.loginPage .footer{
+    background: #002A3A;
+    width: 390px;
+    height: 13px;
+    color: #FFFFFF;
+}
+
+.loginPage .footer .footerText{
+    width: 153px;
+    height: 7px;
+    font-size: 6px;
+    font-weight: 300;
+    line-height: 7px;
+    font-family: 'Roboto';
+    margin: 0;
+    padding-top: 3px;
+    padding-left: 4px;
+
+}

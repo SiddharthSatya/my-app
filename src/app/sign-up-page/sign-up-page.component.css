@@ -1,0 +1,177 @@
+.signUpPage{
+    width: 390px;
+    margin: 0 auto;
+}
+
+.signUpPage .nav_bar{
+    display: flex;
+    flex-direction: row;
+    background-color: #002A3A;
+    color: #FFFFFF;
+    width: 100%;
+    height: 56px;
+}
+
+.signUpPage .nav_bar .logo{
+    justify-content: left;
+    height: 37px;
+    width: 37px;
+    padding-top: 9px;
+    padding-left: 10px;
+    
+}
+
+.signUpPage .nav_bar .prod_name{
+    height: 23px;
+    width: 224px;
+    left: 56px;
+    top: 17px;
+    border-radius: nullpx;
+    font: Roboto;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 21px;
+    align-items: center;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+
+}
+
+.signUpPage .nav_bar .comp_name{
+    font: Roboto;
+    font-size: 15px;
+    width: 77px;
+    height: 24px;
+    padding-top: 18px;
+}
+
+.signUpPage .nav_bar .hamb{
+    justify-content: right;
+    border-radius: 0px;
+    padding-top: 18px;
+}
+
+.signUpPage .img-container .carousel_img{
+    width: 390px;
+    height: 300px;
+}
+
+.signUpPage .loginDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.signUpPage .loginDetails .login{
+    font: 'Roboto';
+    text-align: center;
+}
+
+#logInHead{
+    margin: 10px auto;
+    height: 29px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+}
+
+#logInDet{
+    margin: 0 auto;
+    width: 234px;
+    height: 20px;
+    font-size: 16px;
+}
+
+#logInDet1{
+    margin: 0 auto;
+    width: 215px;
+    height: 40px;
+    font-size: 16px;
+}
+
+.signUpPage .inputFields{
+    text-align: center;
+}
+
+.signUpPage .inputFields .mobile #countryCode{
+    width: 41px;
+    height: 40px;
+    border-radius: 6px;
+    margin-right: 10px;
+}
+
+.signUpPage .inputFields .mobile #mobileNumber{
+    width: 226px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.signUpPage .inputFields .password #pass{
+    margin-top: 20px;
+    width: 285px;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.signUpPage .inputFields .keepMeLoggedIn #chkBox{
+    box-sizing: border-box;
+    border: 1px solid #1D3A6C;
+    border-radius: 2px;
+    height: 17px;
+    width: 17px;
+    margin: 20px 5px 0px 0px;
+}
+
+.btn{
+    text-align: center;
+}
+
+.signUpPage .btn .loginBtn{
+    height: 42px;
+    width: 290px;
+    margin: 10px 0px;
+    background-color: #002A3A;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.signUpPage .btn .loginBtn .loginBtnText{
+    width: 171px;
+    height: 22px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 22px;
+}
+
+.signUpPage .forgetPass .paraPass{
+    width: 128px;
+    height: 32px;
+    padding-left: 127px;
+    margin-top: 5px;
+}
+
+.signUpPage .signUpTag .signUpHolder{
+    width: 275px;
+    height: 19px;
+    margin: 15px auto 25px;
+}
+
+.signUpPage .footer{
+    background: #002A3A;
+    width: 390px;
+    height: 13px;
+    color: #FFFFFF;
+}
+
+.signUpPage .footer .footerText{
+    width: 153px;
+    height: 7px;
+    font-size: 6px;
+    font-weight: 300;
+    line-height: 7px;
+    font-family: 'Roboto';
+    margin: 0;
+    padding-top: 3px;
+    padding-left: 4px;
+
+}
