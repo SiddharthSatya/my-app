@@ -8,7 +8,6 @@ import { HomePageComponent } from './home-page/home-page.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 import { CarouselComponent } from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +23,6 @@ import { NgbDropdownModule } from '@ng-bootstrap/ng-bootstrap';
     AppRoutingModule,
     IvyCarouselModule,
     NgbModule,
-    NgbDropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
