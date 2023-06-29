@@ -152,6 +152,7 @@
     padding-top: 51px;
     padding-left: 10px;
     justify-content: space-around;
+    
 }
 .scanBorder{
     width: 148px;
@@ -164,20 +165,69 @@
 .scanDiv{
     width: 100%;
     height: 100%;
-    background: linear-gradient(91.04deg, #002A3A 22.68%, rgba(0, 42, 58, 0) 82.15%);
     border-radius: 7px;
+    background-image: url('../../assets/img/Intersect.png');
+    background-size: 100% 80px;
+    background-repeat: no-repeat;
 }
 
 .scanDivImgHolder{
     width: 117px;
     height: 80px;
     padding-left: 31px;
+    background: linear-gradient(91.04deg, #002A3A 22.68%, rgba(0, 42, 58, 0) 82.15%);
+    border-radius: 7px;
 }
 
-#scanDivImg{
+.scanDivParaHolder{
+    position: relative;
+    bottom: 70px;
+    left: 15px;
+    height: 36px;
+    width: 113px;
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+}
+
+.scanDivPara{
+    font-weight: 700;
+}
+#scanQr{
+    width: 37px;
+    height: 37px;
+    position: relative;
+    bottom: 50px;
+    left: 80px;
+}
+
+.redemDivParaHolder{
+    position: relative;
+    bottom: 62px;
+    left: 15px;
+    height: 36px;
+    width: 113px;
+    font-size: 14px;
+    color: white;
+    margin: 0px;
+}
+
+.redemDivPara{
+    font-weight: 700;
+}
+
+#redemPic{
+    width: 34px;
+    height: 34px;
+    position: relative;
+    bottom: 35px;
+    left: 90px;
+}
+
+/* #scanDivImg{
     width: 117px;
     height: 80px;
-}
+} */
 
 .redemptnBorder{
     width: 148px;
@@ -185,25 +235,30 @@
     padding: 3px;
     background: linear-gradient(90deg, #F6EAAB -1.49%, #D7B151 10.04%, #F6EAAB 21.24%, #D7B151 31.55%, #FDF7B9 38.25%, #FFFFFC 47.41%, #FDF7B9 57.31%, #D7B151 67.2%, #FDF7B9 78.89%, #D7B151 92.3%, #F6EAAB 101.42%);
     border-radius: 7px;
+    
 }
 
 .redemptnDiv{
     width: 100%;
     height: 100%;
-    background: linear-gradient(91.04deg, #002A3A 22.68%, rgba(0, 42, 58, 0) 82.15%);
     border-radius: 7px;
+    background-image: url('../../assets/img/Intersect.png');
+    background-size: 100% 80px;
+    background-repeat: no-repeat;    
 }
 
 .redemptnDivImgHolder{
     width: 117px;
     height: 80px;
     padding-left: 31px;
+    background: linear-gradient(91.04deg, #002A3A 22.68%, rgba(0, 42, 58, 0) 82.15%);
+    border-radius: 7px;
 }
 
-#redemptnDivImg{
+/* #redemptnDivImg{
     width: 117px;
     height: 80px;
-}
+} */
 
 .detailsTags{
     display: flex;
@@ -496,6 +551,26 @@
     height: 100px;
     width: 65px;
     bottom: 41px;
+    left: 40px;
+}
+
+.imHold{
+    background-image: url('../../assets/img/holdImg.png');
+    background-size: 95px 95px;
+    background-repeat: no-repeat;
+    height: 95px;
+    width: 95px;
+}
+
+.imgHolder{
+    margin: 0px;
+    color: white;
+    height: 12px;
+    width: 65px;
+    font-size: 11px;
+    font-weight: 900;
+    position: relative;
+    top: 75px;
     left: 35px;
 }
 

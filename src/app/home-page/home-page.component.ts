@@ -34,4 +34,6 @@ export class HomePageComponent {
   url_cerealBox="./assets/img/cerealBox.png"
   url_healthFit="./assets/img/healthFit.png"
   url_bottle="./assets/img/bottle.png"
+  url_scanQr="./assets/img/qrCodeScan.png"
+  url_redemPic="./assets/img/redemPic.png"
 }

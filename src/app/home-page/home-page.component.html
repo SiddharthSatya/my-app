@@ -45,14 +45,30 @@
         <div class="scanBorder">
             <div class="scanDiv">
                 <div class="scanDivImgHolder">
-                    <img [src]="url_intersect" alt="" id="scanDivImg">
+                    <!-- <img [src]="url_intersect" alt="" id="scanDivImg"> -->
+                </div>
+                <div class="scanDivParaHolder">
+                    <p class="scanDivPara">
+                        Scan for CarePoints
+                    </p>
+                    <span>
+                        <img [src]="url_scanQr" alt="" id="scanQr">
+                    </span>
                 </div>
             </div>
         </div>
         <div class="redemptnBorder">
             <div class="redemptnDiv">
                 <div class="redemptnDivImgHolder">
-                    <img [src]="url_intersect" alt="" id="redemptnDivImg">
+                    <!-- <img [src]="url_intersect" alt="" id="redemptnDivImg"> -->
+                </div>
+                <div class="redemDivParaHolder">
+                    <p class="redemDivPara">
+                        Redemptions
+                    </p>
+                    <span>
+                        <img [src]="url_redemPic" alt="" id="redemPic">
+                    </span>
                 </div>
             </div>
         </div>    
@@ -167,9 +183,12 @@
             </div>
             <div class="blocksBorder">
                 <div class="sixth" id="blocks">
-                    <p style="margin: 0px;" class="imgHolder">
-                        <img [src]="url_holdImg" alt="" style="height: 95px;width: 95px;">
-                    </p>
+                    <div class="imHold">
+                        <p class="imgHolder">
+                            <!-- <img [src]="url_holdImg" alt="" style="height: 95px;width: 95px;"> -->
+                            View All >
+                        </p>
+                    </div>
                 </div>
             </div>
         </div>
